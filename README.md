@@ -1,3 +1,5 @@
-# ColombiaBirdMorpho :bird:
+### ColombiaBirdMorpho :bird:
 
-A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes
+# A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes
+
+Leydy J. Cardona-Salazar, Yeny A. Benavides-Ossa, Ángela M. Vargas-Daza, Juan F. Betancurt-Grisales, Mauricio Bohada-Murillo, Estefani T. Martínez-Sánchez, Marelid Cardona-Romero, Ana Busi, William D. Tobón-Escobar, Mateo Ortíz-Giraldo, Daniela Gómez Castillo, Johnathan Alvarez-Londoño, Dimas A. Molina-Marin, Juan C. Rodas-Rua, Laura D. Muñoz, Vanessa Velásquez-Trujillo, Luisa F. Salazar-Ramírez, Diana M. Pineda-Gómez, Alejandro Hoyos-Jaramillo, Rafael R. Santisteban-Arenas, Juan G. Salazar-Ramírez, Juan A. Morales-Betancourt, Santiago A. Ramos-Valencia, Germán Gómez-Londoño, Fabiola Ospina-Bautista, Jaime V. Estévez-Varón, Paula A. Ossa-López, Fredy A. Rivera-Páez, Jorge E. Pérez Cárdenas, Francisco E. Fontúrbel & Gabriel J. Castaño-Villa
