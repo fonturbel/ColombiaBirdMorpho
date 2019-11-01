@@ -16,4 +16,4 @@ Map of the localities included in the database of birds of the Tropical Andes.  
 
 Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes (data paper). Ecology.
 
-Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes (data paper). _figshare_ digital repository, doi: 10052408
+Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes (data paper). _figshare_ digital repository, [doi: 10.6084/m9.figshare.10052408](https://doi.org/10.6084/m9.figshare.10052408)
