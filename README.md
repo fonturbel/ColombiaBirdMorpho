@@ -11,3 +11,8 @@ The Colombian Tropical Andes is amongst the highest bird diversity places on Ear
 ## Study area
 ![Map](images/map.png)
 Map of the localities included in the database of birds of the Tropical Andes.  (a) Colombia location in South America; (b) department of Caldas location in Colombia; (c) sampling sites location at department of Caldas, and (d) elevation of the sampling localities.
+
+## References
+Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes (data paper). Ecology.
+
+Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes (data paper). _figshare_ digital repository, doi: 10052408
