@@ -29,7 +29,18 @@ lat <- (data$decimalLatitude)
 coord <- mapproject(lon, lat, proj="gilbert", orientation=c(90, 0, 225))  #convert points to projected lat/long
 points(coord, pch=20, cex=1.2, col="red")  #plot converted points
 
-library(RgoogleMaps)
-center = c(mean(lat), mean(lon))  #tell what point to center on
-zoom <- 2 #zoom: 1 = furthest out (entire globe), larger numbers = closer in
-terrmap <- GetMap(center=center, zoom=zoom, maptype= "satallite", destfile = "satallite.png")
+#Trying another map option
+library(ggplot2)
+library(ggmap)
+register_google(key = "AIzaSyBHyT7WBqXrCGBHjMrAX6fdaGAVZVTKT-I")
+
+df <- as.data.frame(cbind(lon,lat))
+
+# getting the map
+mapgilbert <- get_map(location = c(lon = mean(df$lon), lat = mean(df$lat)), zoom = 4,
+                      maptype = "satellite", scale = 2)
+
+# plotting the map with some points on it
+ggmap(mapgilbert) +
+  geom_point(data = df, aes(x = lon, y = lat, fill = "red", alpha = 0.8), size = 5, shape = 21) +
+  guides(fill=FALSE, alpha=FALSE, size=FALSE)
