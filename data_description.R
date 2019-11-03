@@ -51,9 +51,3 @@ library(leaflet)
 df <- as.data.frame(cbind(lon,lat))
 coordinates(df) <- ~lon+lat
 leaflet(df) %>% addMarkers() %>% addTiles()
-
-#With Google Maps....
-library(RgoogleMaps)
-centre = c(mean(lat), mean(lon))  #tell what point to center on
-zoom <- 2 #zoom: 1 = furthest out (entire globe), larger numbers = closer in
-terrmap <- GetMap(center=centre, zoom=zoom, type= "satellite", destfile = "satellite.png")
