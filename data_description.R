@@ -37,10 +37,12 @@ register_google(key = "AIzaSyBHyT7WBqXrCGBHjMrAX6fdaGAVZVTKT-I")
 df <- as.data.frame(cbind(lon,lat))
 
 # getting the map
-mapgilbert <- get_map(location = c(lon = mean(df$lon), lat = mean(df$lat)), zoom = 4,
-                      maptype = "satellite", scale = 2)
+mapbirds <- ggmap(
+  get_map(location = c(lon = mean(df$lon), lat = mean(df$lat)), zoom = 4,
+                      maptype = "satellite", source = "google", scale = 2)
+)
 
 # plotting the map with some points on it
-ggmap(mapgilbert) +
+ggmap(mapbirds) +
   geom_point(data = df, aes(x = lon, y = lat, fill = "red", alpha = 0.8), size = 5, shape = 21) +
   guides(fill=FALSE, alpha=FALSE, size=FALSE)
