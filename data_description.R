@@ -29,7 +29,7 @@ lat <- (data$decimalLatitude)
 coord <- mapproject(lon, lat, proj="gilbert", orientation=c(90, 0, 225))  #convert points to projected lat/long
 points(coord, pch=20, cex=1.2, col="red")  #plot converted points
 
-#Trying another map option
+#Trying another map option (doesn't work due to Google API)
 library(ggplot2)
 library(ggmap)
 
@@ -45,3 +45,11 @@ mapbirds <- ggmap(
 ggmap(mapbirds) +
   geom_point(data = df, aes(x = lon, y = lat, fill = "red", alpha = 0.8), size = 5, shape = 21) +
   guides(fill=FALSE, alpha=FALSE, size=FALSE)
+
+library(sp)
+library(leaflet)
+df <- as.data.frame(cbind(lon,lat))
+coordinates(df) <- ~lon+lat
+leaflet(df) %>% addMarkers() %>% addTiles()
+
+
