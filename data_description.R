@@ -28,3 +28,8 @@ lon <- (data$decimalLongitude)
 lat <- (data$decimalLatitude)
 coord <- mapproject(lon, lat, proj="gilbert", orientation=c(90, 0, 225))  #convert points to projected lat/long
 points(coord, pch=20, cex=1.2, col="red")  #plot converted points
+
+library(RgoogleMaps)
+center = c(mean(lat), mean(lon))  #tell what point to center on
+zoom <- 2 #zoom: 1 = furthest out (entire globe), larger numbers = closer in
+terrmap <- GetMap(center=center, zoom=zoom, maptype= "satallite", destfile = "satallite.png")
