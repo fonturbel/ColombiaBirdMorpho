@@ -32,7 +32,6 @@ points(coord, pch=20, cex=1.2, col="red")  #plot converted points
 #Trying another map option
 library(ggplot2)
 library(ggmap)
-register_google(key = "AIzaSyBHyT7WBqXrCGBHjMrAX6fdaGAVZVTKT-I")
 
 df <- as.data.frame(cbind(lon,lat))
 
