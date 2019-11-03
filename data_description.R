@@ -6,3 +6,7 @@ names(data)
 #Species covered
 species<-unique(data$scientificName)
 species
+
+#Families covered
+families<-unique(data$family)
+families
