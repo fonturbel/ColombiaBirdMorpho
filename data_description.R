@@ -12,3 +12,19 @@ length(species)
 families<-unique(data$family)
 families
 length(families)
+
+#Setting geographic coordinates space
+min(data$decimalLatitude)
+max(data$decimalLatitude)
+min(data$decimalLongitude)
+max(data$decimalLongitude)
+
+library(maps)
+library(mapdata)
+library(maptools)
+library(mapproj)
+map(database= "world", ylim=c(4.9, 5.7), xlim=c(-74.5, -76), col="grey80", fill=TRUE, projection="gilbert", orientation= c(90,0,225))
+lon <- (data$decimalLongitude)
+lat <- (data$decimalLatitude)
+coord <- mapproject(lon, lat, proj="gilbert", orientation=c(90, 0, 225))  #convert points to projected lat/long
+points(coord, pch=20, cex=1.2, col="red")  #plot converted points
