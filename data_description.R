@@ -8,6 +8,11 @@ species<-unique(data$scientificName)
 species
 length(species)
 
+#Genus covered
+genera<-unique(data$genus)
+genera
+length(genera)
+
 #Families covered
 families<-unique(data$family)
 families
@@ -19,6 +24,7 @@ max(data$decimalLatitude)
 min(data$decimalLongitude)
 max(data$decimalLongitude)
 
+#Ploting a simple map
 library(maps)
 library(mapdata)
 library(maptools)
