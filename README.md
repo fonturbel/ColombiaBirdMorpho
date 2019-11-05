@@ -12,6 +12,9 @@ The Colombian Tropical Andes is amongst the highest bird diversity places on Ear
 ![Map](images/map.png)
 Map of the localities included in the database of birds of the Tropical Andes.  (a) Colombia location in South America; (b) department of Caldas location in Colombia; (c) sampling sites location at department of Caldas, and (d) elevation of the sampling localities.
 
+## Taxonomic coverage
+This dataset presents information on 379 species, belonging to 53 families. These numbers correspond to ~20% of the Colombian avifauna and ~11% of the bird species richness in South America.
+
 ## References
 
 Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes (data paper). Ecology.
