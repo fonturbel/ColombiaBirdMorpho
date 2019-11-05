@@ -47,7 +47,7 @@ mapbirds <- ggmap(
                       maptype = "satellite", source = "google", scale = 2)
 )
 
-# plotting the map with some points on it
+# plotting a detailed map with sampling points on it
 ggmap(mapbirds) +
   geom_point(data = df, aes(x = lon, y = lat, fill = "red", alpha = 0.8), size = 5, shape = 21) +
   guides(fill=FALSE, alpha=FALSE, size=FALSE)
@@ -57,3 +57,5 @@ library(leaflet)
 df <- as.data.frame(cbind(lon,lat))
 coordinates(df) <- ~lon+lat
 leaflet(df) %>% addMarkers() %>% addTiles()
+
+
