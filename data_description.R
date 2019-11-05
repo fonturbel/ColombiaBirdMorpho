@@ -24,12 +24,12 @@ max(data$decimalLatitude)
 min(data$decimalLongitude)
 max(data$decimalLongitude)
 
-#Ploting a simple map
+#Ploting a simple map, locating the sampling points in Colombia
 library(maps)
 library(mapdata)
 library(maptools)
 library(mapproj)
-map(database= "world", ylim=c(4.9, 5.7), xlim=c(-74.5, -76), col="grey80", fill=TRUE, projection="gilbert", orientation= c(90,0,225))
+map(database= "world", ylim=c(4.9, 5.7), xlim=c(-74.5, -76), col="darkgoldenrod1", fill=TRUE, projection="gilbert", orientation= c(90,0,225))
 lon <- (data$decimalLongitude)
 lat <- (data$decimalLatitude)
 coord <- mapproject(lon, lat, proj="gilbert", orientation=c(90, 0, 225))  #convert points to projected lat/long
