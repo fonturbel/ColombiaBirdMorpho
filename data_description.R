@@ -42,10 +42,9 @@ library(ggmap)
 df <- as.data.frame(cbind(lon,lat))
 
 # getting the map
-mapbirds <- ggmap(
-  get_map(location = c(lon = mean(df$lon), lat = mean(df$lat)), zoom = 4,
-                      maptype = "satellite", source = "google", scale = 2)
-)
+#mapbirds <- ggmap(
+#  get_map(location = c(lon = mean(df$lon), lat = mean(df$lat)), zoom = 4,
+#                      maptype = "satellite", source = "google", scale = 2))
 
 # plotting a detailed map with sampling points on it
 ggmap(mapbirds) +
@@ -57,5 +56,3 @@ library(leaflet)
 df <- as.data.frame(cbind(lon,lat))
 coordinates(df) <- ~lon+lat
 leaflet(df) %>% addMarkers() %>% addTiles()
-
-
