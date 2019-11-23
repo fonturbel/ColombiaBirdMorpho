@@ -15,7 +15,7 @@ Map of the localities included in the database of birds of the Tropical Andes.  
 ![Map](images/map_col.png)
 Location of the sampling records in Colombia.
 
-![Map](images/map_detail.png)
+![Map](images/map_detailed.png)
 Detail of the sampling locations.
 
 ## Temporal coverage
