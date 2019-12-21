@@ -26,11 +26,11 @@ This dataset presents information on 379 species, belonging to 53 families. Thes
 
 ## References
 
-*Main paper*
+**Main paper**
 
 Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes (data paper). Under review in Ecology.
 
-*Mirror data repository*
+**Mirror data repository**
 
 Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes. _figshare_ digital repository, [doi: 10.6084/m9.figshare.10052408](https://doi.org/10.6084/m9.figshare.10052408)
 
