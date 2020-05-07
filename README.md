@@ -28,6 +28,10 @@ This dataset presents information collected between 1969 and 2019, corresponding
 ## Taxonomic coverage
 This dataset presents information on 379 species, belonging to 53 families. These numbers correspond to ~20% of the Colombian avifauna and ~11% of the bird species richness in South America.
 
+## Terms of use
+
+This information is provided under a Creative Commons BY-SA license. Therefore, you may freely use this database but you must (i) give the appropriate credit to the authors by citing the reference below, and (ii) if you transform, remix, or build upon this data, the resulting dataset should be shared under the same license conditions.
+
 ## References
 
 **Main paper**
