@@ -31,7 +31,7 @@ This dataset presents information collected between 1969 and 2019, corresponding
 This dataset presents information on 379 species, belonging to 53 families. These numbers correspond to ~20% of the Colombian avifauna and ~11% of the bird species richness in South America.
 
 
-## References
+## References :books:
 
 **Main paper**
 
@@ -42,7 +42,7 @@ Cardona-Salazar, L.J. et al. 2020. A morphological, reproductive, and molt pheno
 Cardona-Salazar, L.J. et al. 2019. A morphological, reproductive, and molt phenology database for 379 bird species from the Colombian Tropical Andes. _figshare_ digital repository, [doi: 10.6084/m9.figshare.10052408](https://doi.org/10.6084/m9.figshare.10052408)
 
 
-## Terms of use
+## Terms of use :warning:
 
 This information is provided under a Creative Commons BY-SA license. Therefore, you may freely use this database but you must (i) give the appropriate credit to the authors by citing the reference above, and (ii) if you transform, remix, or build upon this data, the resulting dataset should be shared under the same license conditions.
 
