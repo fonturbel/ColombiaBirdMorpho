@@ -42,14 +42,6 @@ library(ggmap)
 df <- as.data.frame(cbind(lon,lat))
 
 # getting the map
-#mapbirds <- ggmap(
-#  get_map(location = c(lon = mean(df$lon), lat = mean(df$lat)), zoom = 4,
-#                      maptype = "satellite", source = "google", scale = 2))
-
-# plotting a detailed map with sampling points on it
-ggmap(mapbirds) +
-  geom_point(data = df, aes(x = lon, y = lat, fill = "red", alpha = 0.8), size = 5, shape = 21) +
-  guides(fill=FALSE, alpha=FALSE, size=FALSE)
 
 library(sp)
 library(leaflet)
