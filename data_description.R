@@ -1,3 +1,5 @@
+##This short script will help you getting hands-on with the database
+
 data<-read.csv("ColombiaBirdMorphologyPhenology.csv", header = T)
 attach(data)
 
