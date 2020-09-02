@@ -4,6 +4,8 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
+[![DOI](https://zenodo.org/badge/217922632.svg)](https://zenodo.org/badge/latestdoi/217922632)
+
 ## Contributors
 Leydy J. Cardona-Salazar, Yeny A. Benavides-Ossa, Ángela M. Vargas-Daza, Juan F. Betancurt-Grisales, Mauricio Bohada-Murillo, Estefani T. Martínez-Sánchez, Marelid Cardona-Romero, Ana Busi, William D. Tobón-Escobar, Mateo Ortíz-Giraldo, Daniela Gómez Castillo, Johnathan Alvarez-Londoño, Dimas A. Molina-Marin, Juan C. Rodas-Rua, Laura D. Grisales-Muñoz, Vanessa Velásquez-Trujillo, Luisa F. Salazar-Ramírez, Diana M. Pineda-Gómez, Alejandro Hoyos-Jaramillo, Rafael R. Santisteban-Arenas, Juan G. Salazar-Ramírez, Gloria Patricia Orozco-Montoya, Santiago A. Ramos-Valencia, Germán Gómez-Londoño, Fabiola Ospina-Bautista, Jaime V. Estévez-Varón, Paula A. Ossa-López, Fredy A. Rivera-Páez, Jorge E. Pérez Cárdenas, [Francisco E. Fontúrbel](https://github.com/fonturbel/) & Gabriel J. Castaño-Villa*
 
