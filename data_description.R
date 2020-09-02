@@ -5,14 +5,14 @@
 data<-read.csv("ColombiaBirdMorphologyPhenology.csv", header = T)
 attach(data)
 
-names(data)
+head(data)
 
 #Species covered
 species<-unique(data$scientificName)
 species
 length(species)
 
-#Genus covered
+#Genera covered
 genera<-unique(data$genus)
 genera
 length(genera)
