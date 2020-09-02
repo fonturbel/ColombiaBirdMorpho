@@ -23,7 +23,7 @@ The Colombian Tropical Andes is amongst the highest bird diversity places on Ear
 ![Map](images/map_detailed.png)
 **Detail of the sampling locations.**
 
-**IMPORTANT:** Georeferrencing on this dataset presents two levels of spatial resolution. On the one hand, data derived from fieldwork has very precise locations, with GPS georeferencing with an error threshold below 5 m. On the other hand, we have museum records that have variable spatial resolution. More recent museum specimens have GPS coordinates associated (with a reasonable error level below 10 m), but older records have fuzzy locations, mainly approximated to the nearest populated place or other reference sites (e.g., reserves or rivers).
+**IMPORTANT:** Georeferencing on this dataset presents two levels of spatial resolution. On the one hand, data derived from fieldwork has very precise locations, with GPS georeferencing with an error threshold below 5 m. On the other hand, we have museum records that have variable spatial resolution. More recent museum specimens have GPS coordinates associated (with a reasonable error level below 10 m), but older records have fuzzy locations, mainly approximated to the nearest populated place or other reference sites (e.g., reserves or rivers).
 
 ## Temporal coverage
 This dataset presents information collected between 1969 and 2019, corresponding to museum specimens and individuals collected in the field.
